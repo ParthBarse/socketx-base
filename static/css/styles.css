@@ -37,7 +37,7 @@ body {
   font-weight: 900;
   color: transparent;
   pointer-events: none;
-  background-image: url(../img/logo.svg);
+  background-image: url("../img/logo.svg");
   background-repeat: no-repeat;
   margin: 0;
   user-select: none;
@@ -64,7 +64,11 @@ body {
   color: white !important;
 }
 .orange {
-  background-color: #f26d21;
+  background-color: limegreen;
+}
+
+.black {
+  background-color: rgb(97, 96, 96);
 }
 .meetings-card {
   height: 200px;
